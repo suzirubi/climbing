@@ -9,10 +9,11 @@
   padding:0em;
 }
 body {
-  background-image: url("../img/winds.jpg");
-  background-position: 0em 10em;
-  background-size: contain;
+  background-image: url("../img/smithFade2.jpg");
+  background-position: 0 7em;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-color: rgba(193,169,106,1);
   font-family: helvetica, sans-serif;
   font-size: 1em;
   margin: 0em;
@@ -24,11 +25,12 @@ body {
   border: .1em solid green;
 }
 .navBar {
-  position: relative;
+  position: fixed;
   width:100%;
   background-color: rgba(172, 190, 170,1);
-  height: 10em;
+  height: 7em;
   padding: 20px 20px 20px 20px;
   margin-bottom: 1em;
   border: .1em solid yellow;
+  z-index: 1000;
 }
