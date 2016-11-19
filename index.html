@@ -11,32 +11,49 @@
     <link href="https://fonts.googleapis.com/css?family=Copse|Roboto" rel="stylesheet">
     <link href="css/reset.css" rel="stylesheet" media="screen">
     <link href="css/styles.css" rel="stylesheet" media="screen">
-    <title>Climbing Journal</title>
+    <link href="css/landingStyles.css" rel="stylesheet" media="screen">
+
+    <title>Climbing Journal Landing Page</title>
   </head>
   <body>
-    <div class="navBar">
-        <div class="leftHead">
-          <h3>climbOn</h3>
-        </div>
-        <div class="rightHead">
-          <div class="betaNav">
-            <h4>BETA</h4>
-            <img src="beta.svg" alt="beta alpha character"/>
-          </div>
-          <div class="journalNav">
-            <h4>JOURNAL</h4>
-            <img src="pen.svg" alt="pen icon"/>
-          </div>
-          <div class="destNav">
-            <h4>DESTINATION</h4>
-            <img src="mtnRng.svg" alt="mountain range icon"/>
-          </div>
-        </div>
+    <div class="container2">
+      <div class="landingPage">
+        <div class="headLand"><h3>climbOn</h3></div>
       </div>
-      <div class="container">
-        <img src="img/marmot.jpg" alt="marmot" width="500px"/>
-     </div>
-      <div class="pictureContainer">
+    </div>
+    <div class="formContainer">
+      <form class="address" action="#">
+        <h3>SIGN UP FOR A FREE TRIAL</h3>
+        <p>
+          ClimbOn provides destination information for some of the hardest to get to and most beautiful climbing areas in the country, get and save beta in an easily accessible format and journal once the routes are done.
+        </p>
+        <div class="name">
+            <label for="to">NAME:</label><br>
+            <input id="name" type="text" name="name">
+        </div>
+        <div class="userEmail">
+            <label for="userEmail">EMAIL:</label><br>
+            <input id="email" type="email" name="userEmail">
+        </div>
+        <div class="userPassword">
+            <label for="userPassword">PASSWORD:</label><br>
+            <input id="userPassword" type="text" name="userPassword">
+        </div>
+        <div class="button">
+          <a href="index2.html"><button id="button" type="button">Sign Up and ClimbOn:</button></a>
+        </div>
+      </form>
+    </div>
+
+    <div class="location">
+      <img src="location.svg" alt=""/>
+    </div>
+    <div class="locationType">
+      you are here
+    </div>
+
+    <div class="pictureContainer2">
+
     </div>
   </body>
 </html>
