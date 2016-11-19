@@ -20,7 +20,6 @@
   text-align: center;
   z-index: 100;
 }
-
 .landingPage {
 	position: relative;
 	display: block;
@@ -33,6 +32,7 @@
   letter-spacing: .1em;
   line-height: 1.6em;
 	float: right;
+	margin-bottom: 300px;
 	z-index: 1100;
 }
 .landingPage::after {
@@ -42,9 +42,13 @@
 	clear: both;
 	height: 0;
 }
-.landingPage h3 {
-	padding-left: 100px;
+.headLand {
+	position: relative;
+	display: block;
+	width: 100%;
 	padding-top: 50px;
+	padding-right: 100px;
+	text-align: center;
 	font-size: 2.55em;
 }
 .location {
@@ -70,51 +74,68 @@
 	position: relative;
 	display: block;
 	width: 800px;
+	height: 500px;
 	float: right;
-	border: 3px solid yellow;
-	margin-right: 50px;
+	margin-right: 20px;
 	z-index: 2000;
 }
 form {
 	background-color: rgba(55,71,61,1);
 	width: 740px;
-  height: 498px;
+  height: 458px;
 	font-family: 'Roboto', sans-serif;
-	padding: 20px;
+	font-size: 1em;
+	color: rgba(207,182,133,1);
+	padding: 50px;
 	margin:20px;
 	border-radius:6px;
 	box-shadow:0 4px 10px 4px rgba(0,0,0,.3);
 }
-.to  {
-  position: absolute;
-  left: 415px;
-  top: 185px;
+form h3 {
+	font-family: 'Copse', serif;
+	font-size: 1.5em;
+	letter-spacing: .1em;
+	color: rgba(255,255,255,1);
+	margin-bottom: 20px;
 }
-.from {
-  position: absolute;
-  left: 398px;
-  top: 235px;
+form p {
+	font-family: 'Copse', serif;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	letter-spacing: .1em;
+	color: rgba(255,255,255,1);
 }
-.reply {
+.name  {
   position: absolute;
-  left: 390px;
-  top: 285px;
+  top: 250px;
+  left: 60px;
+}
+.userEmail {
+  position: absolute;
+  top: 320px;
+  left: 60px;
+}
+.userPassword{
+  position: absolute;
+	top: 400px;
+  left: 60px;
 }
 
 label {
   font : .8em 'Roboto', sans-serif;
+	font-weight: bold;
 }
 
 input, textarea {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Copse', serif;
   font-size: .9em;
-	line-height: 1.5em;
+	line-height: 2em;
 	font-weight: 500;
   border: none;
   padding: 0 10px;
   margin: 0;
-  width: 240px;
-  background: none;
+  width: 300px;
+  background: rgba(255,255,255,0.5);
 }
 
 input:focus, textarea:focus {
@@ -123,25 +144,19 @@ input:focus, textarea:focus {
   outline: none;
 }
 
-
-textarea {
-  display : block;
-
-  padding : 10px;
-  margin  : 35px 0 0 -10px;
-  width   : 340px;
-  height  : 300px;
-
-  resize  : none;
-  overflow: scroll;
-}
-
 button {
   position : absolute;
   left: 440px;
-  top: 360px;
+  top: 280px;
+	color: rgb(145,90,45);
+	width: 270px;
+	height: 150px;
+	font-family: "Copse", serif;
+	font-size: 2.5em;
+	line-height: 1.5em;
+	font-weight: 400;
   padding: 5px;
-  border       : 2px solid #333;
+  border       : 2px solid rgb(145,90,45);
   border-radius: 5px;
   background   : none;
   cursor       : pointer;
@@ -153,13 +168,10 @@ button {
         transform: rotate(-1.5deg);
 }
 
-button:after {
-  content: " >>>";
-}
 
 button:hover,
 button:focus {
   outline   : none;
-  background: #000;
+  background: rgb(145,90,45);
   color   : #FFF;
 }
