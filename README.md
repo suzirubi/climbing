@@ -59,7 +59,7 @@ Webpage that showcases a product for sale: A climbing journal that users sign up
 
 
 ##Setup/Installation requirements
-* [visit my gh-page for CSS Independent Project #1](https://suzirubi.github.io/pizza)
+* [visit my gh-page for CSS Independent Project #1](https://suzirubi.github.io/climbing)
 * [visit my gh-page for Independent Project #4](https://suzirubi.github.io/pizza)
 * [visit my gh-page for Independent Project #3](https://suzirubi.github.io/ping-pong)
 * [Visit my gh page for Indpendent Project #2](https://suzirubi.github.io/Independent-Project-Week-2/)
